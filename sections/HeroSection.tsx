@@ -5,8 +5,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import LinkButton from "../components/LinkButton";
 
-import Hiroshi from "../public/Hiroshi-illustration.png";
-import laptop from "../public/laptop-illustration.webp";
+import Hiroshi from "../public/hiroshi.png";
 
 const HeroSection: React.FC = () => {
   const sectionRef = useRef(null);
@@ -134,11 +133,13 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="mt-2 my-4 md:mb-8">
           <p className="mb-1">
-          Determined & goal-driven Full-stack engineer specializing in TypeScript/Rust/Go with an exceptional attention
-          to detail and analytical thinking.
+            Determined & goal-driven Full-stack engineer specializing in
+            TypeScript/Rust/Go with an exceptional attention to detail and
+            analytical thinking.
           </p>
           <p>
-            A team player, problem-solver, and passionate about building systems.
+            A team player, problem-solver, and passionate about building
+            systems.
           </p>
         </div>
         <LinkButton href={`mailto:hiroshi.tan57@gmail.com`}>
