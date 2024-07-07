@@ -37,7 +37,7 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
-      <Loader>Hiroshi.dev</Loader>
+      <Loader>Prohub.work</Loader>
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <SkipToMain />
