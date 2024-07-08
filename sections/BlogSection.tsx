@@ -52,16 +52,16 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       description:
         "Senior Full Stack Developer with a vast array of knowledge in many different front end and backend languages, responsive frameworks, databases and best code practices. Having extensive experience working with web and blockchain.",
       imageUrl: "/team/kevin.png",
-      resume: "/resume/john.pdf",
-    },
-    {
-      id: 4,
-      name: "John Lee",
-      description:
-        "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
-      imageUrl: "/team/jone.png",
       resume: "/resume/kevin.pdf",
     },
+    // {
+    //   id: 4,
+    //   name: "John Lee",
+    //   description:
+    //     "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
+    //   imageUrl: "/team/jone.png",
+    //   resume: "/resume/kevin.pdf",
+    // },
   ];
 
   // Set active link for blog section
