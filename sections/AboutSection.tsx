@@ -4,14 +4,21 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { useTheme } from "next-themes";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-
+import SkillCard from "@/components/SkillCard";
 import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import Hiroshi from "../public/hiroshi.jpg";
 import AboutBgSvg from "@/components/AboutBgSvg";
-import EduGroup from "@/components/EduGroup";
+import CMSimg from "public/skill/cms.png";
+import iotapp from "public/skill/iotapp.png";
+import cryptoimage from "public/skill/crypto.png";
+import reactnative from "public/skill/reactnative.png";
+import progressive from "public/skill/webapp.png";
+import androidimage from "public/skill/android.png";
+import iosapp from "public/skill/ios.png";
+import web3 from "public/skill/web3.png";
+import exchange from "public/skill/exchange.png";
 
 const AboutSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -96,7 +103,7 @@ const AboutSection: React.FC = () => {
   const aboutSection = useScrollActive(sectionRef);
   const { onSectionChange } = useSection();
   useEffect(() => {
-    aboutSection ? onSectionChange!("who am i?") : onSectionChange!("");
+    aboutSection ? onSectionChange!("What we do") : onSectionChange!("");
   }, [aboutSection, onSectionChange]);
 
   return (
@@ -104,7 +111,7 @@ const AboutSection: React.FC = () => {
       ref={sectionRef}
       className="about-panel bg-white dark:bg-[#1B2731] relative"
     >
-      <section id="whoami" className="section">
+      <section id="whatwedo" className="section">
         <RoughNotationGroup>
           <div className="text-center">
             <RoughNotation
@@ -116,74 +123,13 @@ const AboutSection: React.FC = () => {
               order={1}
               show={isSecOnScreen}
             >
-              <h2 className="section-heading">Who am I?</h2>
+              <h2 className="section-heading">What we do</h2>
             </RoughNotation>
           </div>
-          <div className="md:grid grid-rows-5 lg:grid-rows-6 grid-cols-5">
-            <div className="col-start-1 col-end-3 row-start-1 row-end-4 lg:row-end-3 lg:col-start-1 lg:col-end-3 flex justify-center items-center py-4 lg:mb-[8%]">
-              <div className="relative w-72">
-                <svg
-                  width="96"
-                  height="21"
-                  viewBox="0 0 96 21"
-                  aria-hidden="true"
-                  className="img-svg hidden lg:block fill-marrsgreen dark:fill-carrigreen absolute -top-14 -left-14"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M79.2202 0.959991L62.7802 17.32L46.3301 0.959991L29.8902 17.32L13.4501 0.959991L0.410156 13.94L0.400146 17.58L13.4501 4.58999L29.8902 20.95L46.3301 4.58999L62.7802 20.95L79.2202 4.58999L93.7302 19.02L95.5402 17.19L79.2202 0.959991Z" />
-                </svg>
-
-                <div className="profile-picture overflow-hidden md:overflow-visible rounded-md md:shadow-2xl">
-                  <Image
-                    src={Hiroshi}
-                    width={1700}
-                    height={1790}
-                    priority
-                    alt="Hiroshi Tanaka profile picture"
-                    className="rounded-md"
-                  />
-                </div>
-
-                <svg
-                  width="15"
-                  height="14"
-                  viewBox="0 0 15 14"
-                  aria-hidden="true"
-                  className="img-svg hidden lg:block fill-marrsgreen dark:fill-carrigreen absolute bottom-8 -right-12"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M13.68 11.51L9.23 7.05998L13.68 2.61C14.24 2.05 14.24 1.12999 13.68 0.569994C13.12 0.00999391 12.2 0.00999391 11.64 0.569994L7.19002 5.02001L2.74001 0.569994C2.18001 0.00999391 1.26003 0.00999391 0.700029 0.569994C0.140029 1.12999 0.140029 2.05 0.700029 2.61L5.15004 7.05998L0.700029 11.51C0.140029 12.07 0.140029 12.99 0.700029 13.55C1.26003 14.11 2.18001 14.11 2.74001 13.55L7.19002 9.09999L11.64 13.55C12.2 14.11 13.12 14.11 13.68 13.55C14.24 12.99 14.24 12.08 13.68 11.51Z" />
-                </svg>
-
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                  className="img-svg hidden lg:block fill-[#FF9D00] absolute -bottom-10 right-6 scale-150"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M11.6799 5.68002C11.6799 8.65002 9.27994 11.05 6.30994 11.05C3.33994 11.05 0.939941 8.65002 0.939941 5.68002C0.939941 2.71002 3.33994 0.309998 6.30994 0.309998C9.27994 0.309998 11.6799 2.71002 11.6799 5.68002Z" />
-                </svg>
-              </div>
-            </div>
-            <p className="col-start-1 col-end-3 row-start-2 row-end-3 lg:row-start-1 lg:row-end-1 lg:col-start-3 lg:col-end-5 lg:ml-8 lg:mt-auto about-intro">
-              I have worked as a software engineer for 8 years in various industries
-              like SaaS, B2B, marketplace, crypto, bible translation projects, Iot projects.
-              Currently working as a lead backend developer for Lattis.io
-              since 2023 and playing as a head of development for Pricevault Ltd since 2022.
-              Core skills are React.js, Javascript, Typescript, Node.js, and python.
-            </p>
-
-            <div
-              className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-0 md:ml-8 place-content-end"
-              ref={eduRef}
-            >
-              <p className="edu-bg my-4">WORK EXPERIENCE</p>
-              {educationInfo.map((edu) => (
-                <EduGroup edu={edu} key={edu.id} />
-              ))}
-            </div>
+          <div className="flex flex-wrap">
+            {projects.map((project, index) => (
+              <SkillCard key={project.title} index={index} project={project} />
+            ))}
           </div>
         </RoughNotationGroup>
       </section>
@@ -193,53 +139,177 @@ const AboutSection: React.FC = () => {
   );
 };
 
-const educationInfo = [
+const projects = [
   {
-    id: 1,
-    title: "Lattis",
-    subTitle: "Senior Fullstack Engineer | Apr 2023 – May 2024",
-    list: [
-      "Analyzed end users needs and develop software solutions working with project manager and product owner to meet specification needs.",
-      "Wrote clean, efficient, and maintainable code following best practices and coding standards removing technical debts."
-    ],
+    title: "Progressive Web App",
+    type: "web development",
+    image: (
+      <Image
+        src={progressive}
+        sizes="100vw"
+        fill
+        alt="AstroPaper"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Build feature-rich PWAs that act like native apps & ensure 100% success.",
+    tags: [""],
+    liveUrl: "https://lattis.io",
+    codeUrl: "https://github.com/lucky-gru/astro-paper",
+    bgColor: "bg-[#9FD0E3]",
+    githubApi: "https://api.github.com/repos/Hiroshi/astro-paper",
   },
   {
-    id: 2,
-    title: "Pricevault Ltd ",
-    subTitle: "Senior Fullstack Engineer | Mar 2022 – Mar 2023",
-    list: [
-      "PriceVault helps portfolio managers reliably value the most illiquid and complex trades, proactively reduce risks in the valuation process and stay compliant with regulations. (pricevault.io)",
-      "Facilitated knowledge sharing, improved code quality, and promoted a collaborative and supportive work environment by contributing to technical documentation and participating in code reviews.",
-    ],
+    title: "Android App",
+    type: "mobile development",
+    image: (
+      <Image
+        src={androidimage}
+        sizes="100vw"
+        fill
+        alt="Terminal Portfolio"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Build native mobile apps for unmatched user experience.",
+    tags: [""],
+    liveUrl: "https://amerashare.com",
+    codeUrl: "https://github.com/lucky-gru/terminal-portfolio",
+    bgColor: "bg-[#B4BEE0]",
+    githubApi: "https://api.github.com/repos/Hiroshi/terminal-portfolio",
   },
   {
-    id: 3,
-    title: "Ameraiot Inc",
-    subTitle: "Fullstack Engineer | Jun 2020 – Jan 2022",
-    list: [
-      "Amera delivers quantum resistant solutions for your products today.",
-      "Led a team of 5 engineers in end-to-end development of all in one platform (ameraiot.com) for team work using a tech stack - React, Redux, Python, Node.js, PostgreSQL, etc.",
-      "Planned and performed Quality Assurance, keeping test coverage of backend codebase more than 70% using unittest, Mocha, and Chai.",
-    ],
+    title: "Crypto Wallet Development",
+    type: "Blockchain development",
+    image: (
+      <Image
+        src={cryptoimage}
+        sizes="100vw"
+        fill
+        alt="Haru Fashion App"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Build web, mobile, and desktop multi-currency wallets.",
+    tags: [""],
+    liveUrl: "https://app.blast.gg/",
+    codeUrl: "https://github.com/lucky-gru/haru-fashion",
+    bgColor: "bg-[#A6CECE]",
+    githubApi: "https://api.github.com/repos/Hiroshi/haru-fashion",
   },
   {
-    id: 4,
-    title: "Fenrir Inc ",
-    subTitle: "Fullstack Engineer | Jul 2018 – Mar 2020",
-    list: [
-      "Fenrir Inc helps businesses grow their sales and elevate their brand through Fenrir innovative solution.",
-      "Assessing project requirements using Agile & Scrum principles that helped prioritize developing activities and reduce ad hoc work requests by 27%.",
-      "Capturing the best development practices in a way of common condign standards that helped to decrease code complexity and improve maintainability of the shared libraries and components.",
-    ],
+    title: "React Native Web App",
+    type: "web development",
+    image: (
+      <Image
+        src={reactnative}
+        sizes="100vw"
+        fill
+        alt="Haru API"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Create multi-platform mobile applications with a single code.",
+    tags: [""],
+    liveUrl: "https://getbonzo.com/",
+    codeUrl: "https://github.com/lucky-gru/haru-api",
+    bgColor: "bg-[#C5E4E7]",
+    githubApi: "https://api.github.com/repos/Hiroshi/haru-api",
   },
   {
-    id: 5,
-    title: "EDUCATION",
-    subTitle: "Tokyo University of Science | Apr 2014",
-    list: [
-      "Tokyo University of Science",
-      "MS, Computer Science",
-    ],
+    title: "iOS App",
+    type: "mobile development",
+    image: (
+      <Image
+        src={iosapp}
+        sizes="100vw"
+        fill
+        alt="Next Bookstore"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Develop reliable and dynamic iOS Apps for iPhone & iPad.",
+    tags: [""],
+    liveUrl: "https://oi.botbot.bot/",
+    codeUrl: "https://github.com/lucky-gru/next-bookstore",
+    bgColor: "bg-[#EBF4F4]",
+    githubApi: "https://api.github.com/repos/Hiroshi/next-bookstore",
+  },
+  {
+    title: "Web3 Development",
+    type: "Blockchain development",
+    image: (
+      <Image
+        src={web3}
+        sizes="100vw"
+        fill
+        alt="Shadcn Admin"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Transform your business with our high-end web3 project development.",
+    tags: [""],
+    liveUrl: "https://pricevault.io/",
+    codeUrl: "https://github.com/lucky-gru/shadcn-admin",
+    bgColor: "bg-[#FBFBFB]",
+    githubApi: "https://api.github.com/repos/Hiroshi/shadcn-admin",
+  },
+  {
+    title: "CMS/CRM/ERP App",
+    type: "web development",
+    image: (
+      <Image
+        src={CMSimg}
+        sizes="100vw"
+        fill
+        alt="Next Bookstore"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Offer unique web experience with CMS/CRM/ERP Applications.",
+    tags: [""],
+    liveUrl: "#",
+    codeUrl: "https://github.com/lucky-gru/next-bookstore",
+    bgColor: "bg-[#EBF4F4]",
+    githubApi: "https://api.github.com/repos/Hiroshi/next-bookstore",
+  },
+  {
+    title: "IoT App development",
+    type: "mobile development",
+    image: (
+      <Image
+        src={iotapp}
+        sizes="100vw"
+        fill
+        alt="Shadcn Admin"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Improve business efficiency with high-performance IoT apps.",
+    tags: [""],
+    liveUrl: "#",
+    codeUrl: "https://github.com/lucky-gru/shadcn-admin",
+    bgColor: "bg-[#FBFBFB]",
+    githubApi: "https://api.github.com/repos/Hiroshi/shadcn-admin",
+  },
+  {
+    title: "Crypto Exchange Development",
+    type: "mobile development",
+    image: (
+      <Image
+        src={exchange}
+        sizes="100vw"
+        fill
+        alt="Shadcn Admin"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Unlock new revenue stream with crypto exchange software.",
+    tags: [""],
+    liveUrl: "#",
+    codeUrl: "https://github.com/lucky-gru/shadcn-admin",
+    bgColor: "bg-[#FBFBFB]",
+    githubApi: "https://api.github.com/repos/Hiroshi/shadcn-admin",
   },
 ];
 

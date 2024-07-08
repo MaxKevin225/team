@@ -31,28 +31,36 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
 
   const teamInfo = [
     {
-        id: 1,
-        name: "Takeshi",
-        description:
-            "Result-oriented senior frontend engineer with 7 years of professional experience in web development. Expert in Typescript, Node.js, React, Angular, Vue, Nest.js, Express.js, PostgreSQL, and MongoDB.",
-        imageUrl: "/team/takeshi.png",
-        resume: "/resume/takeshi.pdf"
+      id: 1,
+      name: "Hiroshi Tanaka",
+      description:
+        "Result-oriented senior frontend engineer with 7 years of professional experience in web development. Expert in Typescript, Node.js, React, Angular, Vue, Nest.js, Express.js, PostgreSQL, and MongoDB.",
+      imageUrl: "/team/hiroshi.jpg",
+      resume: "/resume/hiroshi.pdf",
     },
     {
-        id: 2,
-        name: "John Lee",
-        description:
-            "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
-        imageUrl: "/team/jone.png",
-        resume: "/resume/john.pdf"
+      id: 2,
+      name: "Takeshi Suzuki",
+      description:
+        "Result-oriented senior frontend engineer with 7 years of professional experience in web development. Expert in Typescript, Node.js, React, Angular, Vue, Nest.js, Express.js, PostgreSQL, and MongoDB.",
+      imageUrl: "/team/takeshi.png",
+      resume: "/resume/takeshi.pdf",
     },
     {
-        id: 3,
-        name: "Kevin Lim",
-        description:
-            "Senior Full Stack Developer with a vast array of knowledge in many different front end and backend languages, responsive frameworks, databases and best code practices. Having extensive experience working with web and blockchain.",
-        imageUrl: "/team/kevin.png",
-        resume: "/resume/kevin.pdf"
+      id: 3,
+      name: "Kevin Lim",
+      description:
+        "Senior Full Stack Developer with a vast array of knowledge in many different front end and backend languages, responsive frameworks, databases and best code practices. Having extensive experience working with web and blockchain.",
+      imageUrl: "/team/kevin.png",
+      resume: "/resume/kevin.pdf",
+    },
+    {
+      id: 4,
+      name: "John Lee",
+      description:
+        "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
+      imageUrl: "/team/jone.png",
+      resume: "/resume/john.pdf",
     },
   ];
 
@@ -80,9 +88,9 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
           </RoughNotation>
         </div>
         <div className="text-center mb-8" ref={elementRef}>
-          I write blog posts about what I've done and what I'm doing{" "}
+          Explore our portfolio to see how we can empower your{" "}
           <br className="hidden sm:block" aria-hidden="true" />
-          as a documenting practice. Here are some of my recent blog posts.
+          business with the latest in web, mobile, and blockchain technology.
         </div>
         <div>
           <Swiper
@@ -121,25 +129,6 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
               </SwiperSlide>
             ))}
           </Swiper>
-          {/* <div className="mt-4 text-center">
-            <Link href="/blog" className="link">
-              Read all blog posts{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-block"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </Link>
-          </div> */}
         </div>
       </section>
     </div>

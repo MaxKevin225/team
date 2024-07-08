@@ -22,18 +22,18 @@ type Props = {
 export const meta = {
   description:
     "Hiroshi Tanaka is a full-stack developer based in Tokyo, Myanmar. He is passionate about writing codes and developing web applications to solve real-life challenges.",
-  author: "Hiroshi Tanaka",
+  author: "Prohub.work",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/Hiroshi-dev-og-new.png`,
-  siteName: "Hiroshi Tanaka",
-  imageAlt: "Hiroshi Tanaka portfolio website",
+  siteName: "Prohub.work",
+  imageAlt: "Prohub.work portfolio website",
 };
 
 const Home: NextPage<Props> = ({ blogPosts }) => {
   return (
     <>
       <AppHead
-        title="Hiroshi Tanaka - A Full-stack Developer"
+        title="Prohub.work"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
