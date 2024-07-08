@@ -27,31 +27,31 @@ const HeroSection: React.FC = () => {
     let tl = gsap.timeline({ defaults: { stagger: 0.2, duration: 0.3 } });
     tl.fromTo(q(".text-animation"), { y: 100 }, { y: 0, delay: 1 });
 
-    // illustration floating effect
-    let imgTl = gsap.timeline({ repeat: -1 });
-    imgTl
-      .to(q(".image-animation"), 3, {
-        y: "-=30",
-        x: "+=20",
-        rotation: "-=2",
-        ease: "power1.easeInOut",
-      })
-      .to(q(".image-animation"), 2, {
-        y: "+=30",
-        x: "-=20",
-        rotation: "-=2",
-        ease: "power1.easeInOut",
-      })
-      .to(q(".image-animation"), 3, {
-        y: "-=20",
-        rotation: "+=2",
-        ease: "power1.easeInOut",
-      })
-      .to(q(".image-animation"), 3, {
-        y: "+=20",
-        rotation: "+=2",
-        ease: "power1.easeInOut",
-      });
+    // // illustration floating effect
+    // let imgTl = gsap.timeline({ repeat: -1 });
+    // imgTl
+    //   .to(q(".image-animation"), 3, {
+    //     y: "-=30",
+    //     x: "+=20",
+    //     rotation: "-=2",
+    //     ease: "power1.easeInOut",
+    //   })
+    //   .to(q(".image-animation"), 2, {
+    //     y: "+=30",
+    //     x: "-=20",
+    //     rotation: "-=2",
+    //     ease: "power1.easeInOut",
+    //   })
+    //   .to(q(".image-animation"), 3, {
+    //     y: "-=20",
+    //     rotation: "+=2",
+    //     ease: "power1.easeInOut",
+    //   })
+    //   .to(q(".image-animation"), 3, {
+    //     y: "+=20",
+    //     rotation: "+=2",
+    //     ease: "power1.easeInOut",
+    //   });
 
     // laptop floating effect
     let laptopTl = gsap.timeline({ repeat: -1 });
@@ -118,36 +118,34 @@ const HeroSection: React.FC = () => {
       </div>
 
       <div className="lg:basis-2/3 z-10 relative">
-        <span className="text-marrsgreen lg:text-lg font-medium dark:text-carrigreen">
-          Hi my name is
-        </span>
+        <span className="text-marrsgreen lg:text-lg font-medium dark:text-carrigreen"></span>
         <div className="overflow-hidden">
           <h1 className="text-animation text-4xl md:text-5xl lg:text-7xl md:my-2 font-semibold my-1">
-            Hiroshi Tanaka
+            We are prohub
           </h1>
         </div>
         <div className="overflow-hidden">
           <span className="text-animation text-2xl md:text-3xl lg:text-5xl block md:my-3 text-marrsgreen dark:text-carrigreen font-medium">
-            A Full-stack Developer
+            Tech for Tomorrow
           </span>
         </div>
         <div className="mt-2 my-4 md:mb-8">
           <p className="mb-1">
-            Determined & goal-driven Full-stack engineer specializing in
-            TypeScript/Rust/Go with an exceptional attention to detail and
-            analytical thinking.
+            We are a dedicated group of software engineers specializing in
+            fullstack web, mobile, and blockchain development. With expertise in
+            a wide range of technologies and a commitment to delivering
+            innovative solutions, we transform ideas into reality. Our team
+            excels in creating robust, scalable applications that drive business
+            success and enhance user experiences.
           </p>
-          <p>
-            A team player, problem-solver, and passionate about building
-            systems.
-          </p>
+          <p>We do freelance work with our heart trust and honestly.</p>
         </div>
         <LinkButton href={`mailto:hiroshi.tan57@gmail.com`}>
-          Contact me!
+          Contact us!
         </LinkButton>
       </div>
       <a
-        href="#whoami"
+        href="#whatwedo"
         className="group absolute link-outline animate-bounce hidden md:bottom-14 lg:bottom-16 left-1/2 transform -translate-x-1/2 md:flex items-center flex-col"
       >
         <span className="group-hover:text-marrsgreen dark:group-hover:text-carrigreen">

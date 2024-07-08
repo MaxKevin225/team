@@ -59,42 +59,43 @@ const BlogImageCard: React.FC<Props> = ({
       );
   }, []);
   return (
-    <div
-      ref={sectionRef}
-      className={`sm:min-w-[17rem] transition translate-y-2 hover:-translate-y-0 max-w-md bg-gray-100 dark:bg-carddark p-4 rounded shadow-md hover:shadow-xl ${
-        fullWH ? "w-full" : "w-72 my-2"
-      } ${className}`}
-    >
-      <div className="flex flex-col-reverse" style={{ textAlign: "center" }}>
-        <div className="mb-1 overflow-hidden h-14">
-          <h3
-            className={`${
-              fullWH ? "text-lg sm:text-md" : "text-md"
-            } font-medium line-clamp-2`}
-          >
-            {name}
-          </h3>
-          <Link target="_blank" rel="noreferrer" href={String(resume)}>
-            Resume{" "}
-          </Link>
-        </div>
-        <div className="blog-image relative w-full h-48 md:h-40 mb-3">
-          <Image
-            src={String(imageUrl)}
-            style={{ width: "55%", marginLeft: "22.5%" }}
-            className="object-contain"
-            alt="sdf"
-          />
-        </div>
-      </div>
-      <p
-        className={`blog-text dark:text-gray-300 ${
-          fullWH ? "text-base sm:text-sm" : "text-sm w-60"
-        } overflow-hidden text-ellipsis line-clamp-4 leading-7 sm:leading-6`}
+    <Link target="_blank" rel="noreferrer" href={String(resume)}>
+      <div
+        ref={sectionRef}
+        className={`sm:min-w-[17rem] transition translate-y-2 hover:-translate-y-0 max-w-md bg-gray-100 dark:bg-carddark p-4 rounded shadow-md hover:shadow-xl ${
+          fullWH ? "w-full" : "w-72 my-2"
+        } ${className}`}
       >
-        {description}
-      </p>
-    </div>
+        <div className="flex flex-col-reverse" style={{ textAlign: "center" }}>
+          <div className="mb-1 overflow-hidden h-14">
+            <h3
+              className={`${
+                fullWH ? "text-lg sm:text-md" : "text-md"
+              } font-medium line-clamp-2`}
+            >
+              {name}
+            </h3>
+          </div>
+          <div className="blog-image relative w-full h-48 md:h-40 mb-3">
+            <Image
+              src={String(imageUrl)}
+              width={1000}
+              height={1000}
+              style={{ width: "55%", marginLeft: "22.5%" }}
+              className="object-contain"
+              alt="sdf"
+            />
+          </div>
+        </div>
+        <p
+          className={`blog-text dark:text-gray-300 ${
+            fullWH ? "text-base sm:text-sm" : "text-sm w-60"
+          } overflow-hidden text-ellipsis line-clamp-4 leading-7 sm:leading-6`}
+        >
+          {description}
+        </p>
+      </div>
+    </Link>
   );
 };
 
