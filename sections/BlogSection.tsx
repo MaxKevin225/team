@@ -36,7 +36,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       description:
         "Result-oriented senior frontend engineer with 7 years of professional experience in web development. Expert in Typescript, Node.js, React, Angular, Vue, Nest.js, Express.js, PostgreSQL, and MongoDB.",
       imageUrl: "/team/hiroshi.jpg",
-      resume: "/resume/hiroshi.pdf",
+      resume: "/resume/hiroshitanaka.pdf",
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       description:
         "Result-oriented senior frontend engineer with 7 years of professional experience in web development. Expert in Typescript, Node.js, React, Angular, Vue, Nest.js, Express.js, PostgreSQL, and MongoDB.",
       imageUrl: "/team/takeshi.png",
-      resume: "/resume/takeshi.pdf",
+      resume: "/resume/takeshisuzuki.pdf",
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       description:
         "Senior Full Stack Developer with a vast array of knowledge in many different front end and backend languages, responsive frameworks, databases and best code practices. Having extensive experience working with web and blockchain.",
       imageUrl: "/team/kevin.png",
-      resume: "/resume/john.pdf",
+      resume: "/resume/kevinlim.pdf",
     },
     // {
     //   id: 4,
