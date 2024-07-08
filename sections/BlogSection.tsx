@@ -34,7 +34,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       id: 1,
       name: "Hiroshi Tanaka",
       description:
-        "Result-oriented senior frontend engineer with 7 years of professional experience in web development. Expert in Typescript, Node.js, React, Angular, Vue, Nest.js, Express.js, PostgreSQL, and MongoDB.",
+        "A team player, problem-solver, and passionate about building systems. Core skills are React.js, Javascript, Typescript, Node.js, Python, Solana blockchain, Rust, AI (LLM) area.",
       imageUrl: "/team/hiroshi.jpg",
       resume: "/resume/hiroshitanaka.pdf",
     },
