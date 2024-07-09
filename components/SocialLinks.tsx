@@ -34,9 +34,6 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
           <div className="w-40 h-1 bg-bgdark dark:bg-bglight rotate-90"></div>
         </div>
       )}
-      <div className="hidden fixed right-10 bottom-0 md:flex flex-col w-6 h-[17rem] items-center justify-between">
-        <div className="w-40 h-1 bg-bgdark dark:bg-bglight rotate-90"></div>
-      </div>
     </>
   );
 };
