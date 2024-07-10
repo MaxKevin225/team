@@ -74,7 +74,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Wrote clean, efficient, and maintainable code following best practices and coding standards removing technical debts.",
+    desc: "Lattis is revolutionizing fleet management across industries like micromobility, car rental, delivery, and public transit.",
     tags: ["GolangNode", "JsAngularAPI", "DevelopmentIot"],
     liveUrl: "https://lattis.io",
     codeUrl: "https://github.com/lucky-gru/astro-paper",
@@ -93,7 +93,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Experimented with latest technologies such as Shared service and WebRTC as a part of implementation of the platform.",
+    desc: "Amera delivers quantum resistant solutions for your products today.",
     tags: ["Node", "JsKafkaPython", "3React", "ReduxWebRTCXMPP"],
     liveUrl: "https://amerashare.com",
     codeUrl: "https://github.com/lucky-gru/terminal-portfolio",
@@ -112,7 +112,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "In charge of developing frontend and web3 integration for p2e gaming platform (app.blast.gg) in serverless architecture.",
+    desc: "Blast is a web3 tournament platform for all kinds of games.",
     tags: ["Next.js", "React", "Ethereum Smart Contract", "Web3.js", "CSS3"],
     liveUrl: "https://app.blast.gg/",
     codeUrl: "https://github.com/lucky-gru/haru-fashion",
@@ -131,7 +131,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "A RESTful API developed for Haru fashion ecommerce project. Include CRUD operations, authentication, authorization, forgot/reset password and full-text search.",
+    desc: "Hilo Labs is a startup focused on web, blockchain, and AI development. Joined the Bonzo development team and built an SMS marketing platform.",
     tags: ["ExpressJS", "TypeScript", "PostgreSQL", "Prisma"],
     liveUrl: "https://getbonzo.com/",
     codeUrl: "https://github.com/lucky-gru/haru-api",
@@ -169,7 +169,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Built an ETL solution with MongoDB, AWS Elastic Beanstalk, and Node.js for Swap Data Repository.",
+    desc: "PriceVault helps portfolio managers reliably value the most illiquid and complex trades, proactively reduce risks in the valuation process and stay compliant with regulations.",
     tags: ["Next.js", "React", "AWS", "Mixpanel", "Mongo", "Node.js"],
     liveUrl: "https://pricevault.io/",
     codeUrl: "https://github.com/lucky-gru/shadcn-admin",
