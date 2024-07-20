@@ -21,7 +21,7 @@ type Props = {
 
 export const meta = {
   description:
-    "Hiroshi Tanaka is a full-stack developer based in Tokyo, Myanmar. He is passionate about writing codes and developing web applications to solve real-life challenges.",
+    "As a team, we are driven by our passion for coding and our desire to tackle new challenges. If you have opportunities for collaboration or want to build something amazing, don't hesitate to contact us!.",
   author: "Prohub.work",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/Hiroshi-dev-og-new.png`,
