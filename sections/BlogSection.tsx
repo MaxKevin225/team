@@ -54,14 +54,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       imageUrl: "/team/kevin.png",
       resume: "/resume/kevinlim.pdf",
     },
-    // {
-    //   id: 4,
-    //   name: "John Lee",
-    //   description:
-    //     "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
-    //   imageUrl: "/team/jone.png",
-    //   resume: "/resume/kevin.pdf",
-    // },
+    {
+      id: 4,
+      name: "John Lee",
+      description:
+        "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
+      imageUrl: "/team/jone.png",
+      resume: "/resume/Johnlee.pdf",
+    },
   ];
 
   // Set active link for blog section
