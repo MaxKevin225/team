@@ -49,7 +49,7 @@ const ContactSection: React.FC = () => {
           tackle new challenges. If you have opportunities for collaboration or
           want to build something amazing, don't hesitate to contact us!
         </p>
-        <LinkButton href={`mailto:hiroshi.tan57@gmail.com`}>
+        <LinkButton href={`mailto:hiroshi@prohub.work`}>
           Get in touch!
         </LinkButton>
       </div>
