@@ -62,6 +62,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       imageUrl: "/team/jone.png",
       resume: "/resume/Johnlee.pdf",
     },
+    {
+      id: 5,
+      name: "Benjamin Tan",
+      description:
+        "I'm a Blockchain Developer with over 8 years of industry experience.Graduated from Toronto Metropolitan University with a Bachelor's degree in",
+      imageUrl: "/team/benjamin.png",
+      resume: "/resume/benjamin.pdf",
+    },
   ];
 
   // Set active link for blog section
