@@ -70,6 +70,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       imageUrl: "/team/benjamin.png",
       resume: "/resume/benjamin.pdf",
     },
+    {
+      id: 6,
+      name: "Nazar B",
+      description:
+        "I am a Full-Stack Developer, AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies",
+      imageUrl: "/team/nazar.png",
+      resume: "/resume/nazar.pdf",
+    },
   ];
 
   // Set active link for blog section
