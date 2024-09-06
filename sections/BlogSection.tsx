@@ -64,19 +64,19 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
     },
     {
       id: 5,
-      name: "Benjamin Tan",
-      description:
-        "I'm a Blockchain Developer with over 8 years of industry experience.Graduated from Toronto Metropolitan University with a Bachelor's degree in",
-      imageUrl: "/team/benjamin.png",
-      resume: "/resume/benjamin.pdf",
-    },
-    {
-      id: 6,
       name: "Nazar B",
       description:
         "I am a Full-Stack Developer, AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies",
       imageUrl: "/team/nazar.png",
       resume: "/resume/nazar.pdf",
+    },
+    {
+      id: 6,
+      name: "Benjamin Tan",
+      description:
+        "I'm a Blockchain Developer with over 8 years of industry experience.Graduated from Toronto Metropolitan University with a Bachelor's degree in",
+      imageUrl: "/team/benjamin.png",
+      resume: "/resume/benjamin.pdf",
     },
   ];
 
