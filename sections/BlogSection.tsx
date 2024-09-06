@@ -56,19 +56,19 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
     },
     {
       id: 4,
+      name: "Nazar B",
+      description:
+        "I am a Senior AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies to solve complex problems. My expertise lies in developing ",
+      imageUrl: "/team/nazar.png",
+      resume: "/resume/nazar.pdf",
+    },
+    {
+      id: 5,
       name: "John Lee",
       description:
         "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
       imageUrl: "/team/jone.png",
       resume: "/resume/Johnlee.pdf",
-    },
-    {
-      id: 5,
-      name: "Nazar B",
-      description:
-        "I am a Full-Stack Developer, AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies",
-      imageUrl: "/team/nazar.png",
-      resume: "/resume/nazar.pdf",
     },
     {
       id: 6,
