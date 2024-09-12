@@ -56,6 +56,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
     },
     {
       id: 4,
+      name: "Xiaoxue Xing",
+      description:
+        "As a Data Scientist with a Master's degree in Statistics from Columbia University and a strong academic foundation in mathematics and computer science, I excel at turning raw data into actionable insights.",
+      imageUrl: "/team/xiaoxue.png",
+      resume: "/resume/xiaoxue.pdf",
+    },
+    {
+      id: 5,
       name: "Nazar B",
       description:
         "I am a Senior AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies to solve complex problems. My expertise lies in developing ",
@@ -63,7 +71,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       resume: "/resume/nazar.pdf",
     },
     {
-      id: 5,
+      id: 6,
       name: "John Lee",
       description:
         "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
@@ -71,7 +79,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       resume: "/resume/Johnlee.pdf",
     },
     {
-      id: 6,
+      id: 7,
       name: "Benjamin Tan",
       description:
         "I'm a Blockchain Developer with over 8 years of industry experience.Graduated from Toronto Metropolitan University with a Bachelor's degree in",
