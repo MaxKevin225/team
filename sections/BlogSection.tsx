@@ -72,7 +72,7 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
     },
     {
       id: 6,
-      name: "Xiaoxue Xing",
+      name: "Xiaoxue Xiong",
       description:
         "As a Data Scientist with a Master's degree in Statistics from Columbia University and a strong academic foundation in mathematics and computer science, I excel at turning raw data into actionable insights.",
       imageUrl: "/team/xiaoxue.png",
