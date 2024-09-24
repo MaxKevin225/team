@@ -7,6 +7,7 @@ import Contact from "../../components/kevin/homepage/contact";
 import AllProjects from "../../components/kevin/projects/allProjects";
 import INFO from "../../data/user";
 import myhistory from "../../data/history";
+import Image from "next/image";
 
 interface HistoryItem {
   date: string;
@@ -89,10 +90,11 @@ const Homepage: React.FC = () => {
 
               <div className="flex justify-center items-center">
                 <div className="w-[370px] h-[370px] overflow-hidden rounded-[10%] transform rotate-3">
-                  <img
-                    src="homepage.jpg"
+                  <Image
+                    src="/homepage.jpg"
                     alt="about"
-                    className="homepage-image"
+                    width={500}
+                    height={500}
                   />
                 </div>
               </div>
