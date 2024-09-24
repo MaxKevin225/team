@@ -1,17 +1,11 @@
-import React, { useState } from "react";
-import Link from "next/link";
+import React from "react";
+import Link from "next/link"; // Import Link from next/link
 
 interface NavBarProps {
-  initialActive: string;
+  active: string;
 }
 
-const NavBar: React.FC<NavBarProps> = ({ initialActive }) => {
-  const [active, setActive] = useState(initialActive);
-
-  const handleClick = (item: string) => {
-    setActive(item);
-  };
-
+const NavBar: React.FC<NavBarProps> = ({ active }) => {
   return (
     <div className="flex justify-center items-center">
       <nav className="fixed top-7 z-50">
@@ -27,7 +21,6 @@ const NavBar: React.FC<NavBarProps> = ({ initialActive }) => {
               <Link
                 href="/kevin"
                 className="hover:text-link transition-colors duration-300"
-                onClick={() => handleClick("home")}
               >
                 Home
               </Link>
@@ -42,7 +35,6 @@ const NavBar: React.FC<NavBarProps> = ({ initialActive }) => {
               <Link
                 href="/kevin/about"
                 className="hover:text-link transition-colors duration-300"
-                onClick={() => handleClick("about")}
               >
                 About
               </Link>
@@ -57,7 +49,6 @@ const NavBar: React.FC<NavBarProps> = ({ initialActive }) => {
               <Link
                 href="/kevin/history"
                 className="hover:text-link transition-colors duration-300"
-                onClick={() => handleClick("history")}
               >
                 History
               </Link>
@@ -72,7 +63,6 @@ const NavBar: React.FC<NavBarProps> = ({ initialActive }) => {
               <Link
                 href="/kevin/projects"
                 className="hover:text-link transition-colors duration-300"
-                onClick={() => handleClick("projects")}
               >
                 Projects
               </Link>
@@ -87,7 +77,6 @@ const NavBar: React.FC<NavBarProps> = ({ initialActive }) => {
               <Link
                 href="/kevin/contact"
                 className="hover:text-link transition-colors duration-300"
-                onClick={() => handleClick("contact")}
               >
                 Contact
               </Link>
