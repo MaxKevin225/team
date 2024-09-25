@@ -11,7 +11,13 @@ const NavBar: React.FC<NavBarProps> = ({ active }) => {
       <nav className="fixed top-7 z-50">
         <div className="w-96 h-10 bg-white shadow-md rounded-full dark:bg-carddark">
           <ul className="flex justify-between items-center px-6 py-2">
-            <li>
+            <li
+              className={
+                active === "home"
+                  ? "font-bold text-carrigreen"
+                  : "font-bold dark:text-white"
+              }
+            >
               <Link
                 href="/kevin"
                 className="hover:text-link transition-colors duration-300"
@@ -19,7 +25,13 @@ const NavBar: React.FC<NavBarProps> = ({ active }) => {
                 Home
               </Link>
             </li>
-            <li>
+            <li
+              className={
+                active === "about"
+                  ? "font-bold text-carrigreen"
+                  : "font-bold dark:text-white"
+              }
+            >
               <Link
                 href="/kevin/about"
                 className="hover:text-link transition-colors duration-300"
@@ -27,7 +39,13 @@ const NavBar: React.FC<NavBarProps> = ({ active }) => {
                 About
               </Link>
             </li>
-            <li>
+            <li
+              className={
+                active === "history"
+                  ? "font-bold text-carrigreen"
+                  : "font-bold dark:text-white"
+              }
+            >
               <Link
                 href="/kevin/history"
                 className="hover:text-link transition-colors duration-300"
@@ -35,7 +53,13 @@ const NavBar: React.FC<NavBarProps> = ({ active }) => {
                 History
               </Link>
             </li>
-            <li>
+            <li
+              className={
+                active === "projects"
+                  ? "font-bold text-carrigreen"
+                  : "font-bold dark:text-white"
+              }
+            >
               <Link
                 href="/kevin/projects"
                 className="hover:text-link transition-colors duration-300"
@@ -43,7 +67,13 @@ const NavBar: React.FC<NavBarProps> = ({ active }) => {
                 Projects
               </Link>
             </li>
-            <li>
+            <li
+              className={
+                active === "contact"
+                  ? "font-bold text-carrigreen"
+                  : "font-bold dark:text-white"
+              }
+            >
               <Link
                 href="/kevin/contact"
                 className="hover:text-link transition-colors duration-300"

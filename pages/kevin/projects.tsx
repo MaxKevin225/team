@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
       </Head>
 
       <div className="bg-[rgb(255 242 242)] relative">
-        <NavBar active="home" />
+        <NavBar active="projects" />
         <div className="max-w-[1200px] bg-white p-10 mx-auto dark:bg-[#1B2731]">
           <div className="flex justify-start items-center pt-32">
             <div style={logoStyle}>
