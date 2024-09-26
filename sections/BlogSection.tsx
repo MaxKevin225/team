@@ -70,14 +70,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       imageUrl: "/team/jone.png",
       resume: "/resume/Johnlee.pdf",
     },
-    // {
-    //   id: 6,
-    //   name: "Xiaoxue Xiong",
-    //   description:
-    //     "As a Data Scientist with a Master's degree in Statistics from Columbia University and a strong academic foundation in mathematics and computer science, I excel at turning raw data into actionable insights.",
-    //   imageUrl: "/team/xiaoxue.png",
-    //   resume: "/resume/xiaoxue.pdf",
-    // },
+    {
+      id: 6,
+      name: "Xiaoxue Xiong",
+      description:
+        "As a Data Scientist with a Master's degree in Statistics from Columbia University and a strong academic foundation in mathematics and computer science, I excel at turning raw data into actionable insights.",
+      imageUrl: "/team/xiaoxue.png",
+      resume: "/resume/xiaoxue.pdf",
+    },
     {
       id: 7,
       name: "Benjamin Tan",
