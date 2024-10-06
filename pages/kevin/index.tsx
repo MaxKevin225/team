@@ -88,7 +88,7 @@ const Homepage: React.FC = () => {
                 )}
               </div>
 
-              <div className="flex justify-center items-center">
+              {/* <div className="flex justify-center items-center">
                 <div className="w-[370px] h-[370px] overflow-hidden rounded-[10%] transform rotate-3">
                   <Image
                     src="/homepage.jpg"
@@ -97,7 +97,7 @@ const Homepage: React.FC = () => {
                     height={500}
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="pt-10">
