@@ -54,14 +54,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       imageUrl: "/team/kevin.png",
       resume: "/resume/kevinlim.pdf",
     },
-    {
-      id: 4,
-      name: "Nazar B",
-      description:
-        "I am a Senior AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies to solve complex problems. My expertise lies in developing ",
-      imageUrl: "/team/nazar.png",
-      resume: "/resume/nazar.pdf",
-    },
+    // {
+    //   id: 4,
+    //   name: "Nazar B",
+    //   description:
+    //     "I am a Senior AI/ML Engineer, and Embedded Systems Specialist with a deep passion for integrating advanced technologies to solve complex problems. My expertise lies in developing ",
+    //   imageUrl: "/team/nazar.png",
+    //   resume: "/resume/nazar.pdf",
+    // },
     {
       id: 5,
       name: "John Lee",
