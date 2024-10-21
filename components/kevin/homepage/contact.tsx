@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
               </div>
             </Link>
 
-            <Link href={INFO.socials.linkedin} passHref>
+            {/* <Link href={INFO.socials.linkedin} passHref>
               <div className={linkClasses}>
                 <FontAwesomeIcon
                   icon={faLinkedin}
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
                 <div className={textClasses}>Linkedin</div>
                 <div className={subtitleClasses}>{INFO.socials.linkedin}</div>
               </div>
-            </Link>
+            </Link> */}
 
             <Link href={`mailto:${INFO.main.email}`} passHref>
               <div className={linkClasses}>
