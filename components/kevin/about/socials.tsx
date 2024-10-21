@@ -43,7 +43,7 @@ const Socials: React.FC = () => {
       </div>
 
       {/* LinkedIn */}
-      <div className="flex pb-5">
+      {/* <div className="flex pb-5">
         <Link href={INFO.socials.linkedin} passHref>
           <div className="flex items-center">
             <div className="text-lg text-secondary">
@@ -54,7 +54,7 @@ const Socials: React.FC = () => {
             </div>
           </div>
         </Link>
-      </div>
+      </div> */}
 
       {/* About Us - Internal link
       <div className="flex pb-5">
