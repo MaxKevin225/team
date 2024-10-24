@@ -62,22 +62,22 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
     //   imageUrl: "/team/nazar.png",
     //   resume: "/resume/nazar.pdf",
     // },
-    {
-      id: 5,
-      name: "John Lee",
-      description:
-        "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
-      imageUrl: "/team/jone.png",
-      resume: "/resume/Johnlee.pdf",
-    },
-    {
-      id: 6,
-      name: "Daniel Jin",
-      description:
-        "Innovative and results-driven Senior Software Engineer with over 12 years of experience in designing, developing, and deploying high-performance",
-      imageUrl: "/team/daniel.png",
-      resume: "/resume/daniel.pdf",
-    },
+    // {
+    //   id: 5,
+    //   name: "John Lee",
+    //   description:
+    //     "I specialize in end-to-end development of software systems using the latest technologies to build Blockchain and web platforms of any kind. ",
+    //   imageUrl: "/team/jone.png",
+    //   resume: "/resume/Johnlee.pdf",
+    // },
+    // {
+    //   id: 6,
+    //   name: "Daniel Jin",
+    //   description:
+    //     "Innovative and results-driven Senior Software Engineer with over 12 years of experience in designing, developing, and deploying high-performance",
+    //   imageUrl: "/team/daniel.png",
+    //   resume: "/resume/daniel.pdf",
+    // },
     // {
     //   id: 6,
     //   name: "Xiaoxue Xiong",
