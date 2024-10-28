@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { RoughNotation } from "react-rough-notation";
 import { useTheme } from "next-themes";
+import { useRouter } from 'next/router';
 
 import LinkButton from "@/components/LinkButton";
 import { useSection } from "context/section";
@@ -8,14 +9,14 @@ import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
 const UnsubscribeForm: React.FC = () => {
-  const { theme } = useTheme();
+  const router = useRouter();
 
   const sectionRef = useRef<HTMLDivElement>(null);
-  const isSecOnScreen = useOnScreen(sectionRef);
+  // const isSecOnScreen = useOnScreen(sectionRef);
   const emailRef = useRef<HTMLInputElement>(null);
 
   const elementRef = useRef<HTMLDivElement>(null);
-  const isOnScreen = useOnScreen(elementRef);
+  // const isOnScreen = useOnScreen(elementRef);
 
   // Set active link for contact section
   const UnsubscribeForm = useScrollActive(sectionRef);
@@ -40,7 +41,8 @@ const UnsubscribeForm: React.FC = () => {
       }
 
       const data = await response.json();
-      console.log("User updated or created:", data);
+      console.log("unsubscribed", data);
+      router.push('/');
     } catch (error) {
       console.error("Failed to update or create user:", error);
     }
