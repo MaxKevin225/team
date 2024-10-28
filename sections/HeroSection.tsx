@@ -140,7 +140,7 @@ const HeroSection: React.FC = () => {
           </p>
           <p>We do freelance work with our heart trust and honestly.</p>
         </div>
-        <LinkButton href={`mailto:hiroshi@prohub.work`}>Contact us!</LinkButton>
+        <LinkButton href={`mailto:hiroshi@prohub.page`}>Contact us!</LinkButton>
       </div>
       <a
         href="#whatwedo"

@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://Prohub.work/sitemap.xml
+Sitemap: https://prohub.page/sitemap.xml

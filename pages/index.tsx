@@ -22,22 +22,22 @@ type Props = {
 export const meta = {
   description:
     "As a team, we are driven by our passion for coding and our desire to tackle new challenges. If you have opportunities for collaboration or want to build something amazing, don't hesitate to contact us!.",
-  author: "Prohub.work",
+  author: "prohub.page",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/Hiroshi-dev-og-new.png`,
-  siteName: "Prohub.work",
-  imageAlt: "Prohub.work portfolio website",
+  siteName: "prohub.page",
+  imageAlt: "prohub.page portfolio website",
 };
 
 const Home: NextPage<Props> = ({ blogPosts }) => {
   return (
     <>
       <AppHead
-        title="Prohub.work"
+        title="prohub.page"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
-      <Loader>Prohub.work</Loader>
+      <Loader>prohub.page</Loader>
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <SkipToMain />

@@ -29,7 +29,7 @@ My experience about developing my first portfolio website and a blog using NextJ
 
 ## Motivation
 
-I've been always thinking about launching my own website with my custom domain name (**Prohub.work**) since my college student life. But that never happened until this project. I've done several projects and works about web application development but I didn't make an effort to do this.
+I've been always thinking about launching my own website with my custom domain name (**prohub.page**) since my college student life. But that never happened until this project. I've done several projects and works about web application development but I didn't make an effort to do this.
 
 So, "what about blog?" you may ask. Yeah, blog also has been in my project list for some time. I always wanted to make a blog project using some of the latest technologies. However, I've been busy with my works and other projects so that blog project has never been started.
 
@@ -63,11 +63,11 @@ The entire project is developed with SEO focus in mind. I've used proper meta ta
 
 > You can search this website on google by using keywords like 'Hiroshi Tanaka dev'
 
-![searching Prohub.work on google](https://res.cloudinary.com/noezectz/image/upload/v1648231400/Hiroshi/Hiroshi-on-google_asflq6.png "Prohub.work is indexed")
+![searching prohub.page on google](https://res.cloudinary.com/noezectz/image/upload/v1648231400/Hiroshi/Hiroshi-on-google_asflq6.png "prohub.page is indexed")
 
 Moreover, this website will be displayed well when shared to social media due to properly used meta tags.
 
-![Prohub.work card layout when shared to Facebook](https://res.cloudinary.com/noezectz/image/upload/v1653106955/Hiroshi/Hiroshi-dev-share-on-facebook_1_zjoehx.png "Card layout when shared to Facebook")
+![prohub.page card layout when shared to Facebook](https://res.cloudinary.com/noezectz/image/upload/v1653106955/Hiroshi/Hiroshi-dev-share-on-facebook_1_zjoehx.png "Card layout when shared to Facebook")
 
 ### Dynamic Sitemap
 
@@ -89,13 +89,13 @@ All blog contents can be searched by search box. Moreover, contents can be filte
 
 This website got very good performance and lighthouse score thanks to proper development and best practices. Here's the lighthouse score for this website.
 
-![Prohub.work Lighthouse score](https://user-images.githubusercontent.com/53733092/159957822-7082e459-11e9-4616-8f1e-49d0881f7cbb.png "Prohub.work Lighthouse score")
+![prohub.page Lighthouse score](https://user-images.githubusercontent.com/53733092/159957822-7082e459-11e9-4616-8f1e-49d0881f7cbb.png "prohub.page Lighthouse score")
 
 ### Animations
 
 Initially I used [Framer Motion](https://www.framer.com/motion/ "Framer Motion") to add animations and micro interactions for this website. However, when I tried to use some complex animations and parallax effects, I found it inconvenient to integrate with Framer Motion (Maybe I'm not very good at and used to working with it). Hence, I decided to use [GSAP](https://greensock.com/ "GSAP Animation Library") for all of my animations. It is one of the most popular animation library and it is capable of doing complex and advanced animations. You can see animations and micro interactions on pretty much every page of this website.
 
-![animations at Prohub.work](https://res.cloudinary.com/noezectz/image/upload/v1653108324/Hiroshi/ezgif.com-gif-maker_2_hehtlm.gif "Prohub.work website")
+![animations at prohub.page](https://res.cloudinary.com/noezectz/image/upload/v1653108324/Hiroshi/ezgif.com-gif-maker_2_hehtlm.gif "prohub.page website")
 
 ## Outro
 
@@ -105,6 +105,6 @@ And... last but not least, I would like to say 'thanks' to my friend [Swann Fevi
 
 ## Project Links
 
-- Website: [https://Prohub.work/](https://Prohub.work/ "https://Prohub.work/")
-- Blog: [https://Prohub.work/blog](https://Prohub.work/blog "https://Prohub.work/blog")
+- Website: [https://prohub.page/](https://prohub.page/ "https://prohub.page/")
+- Blog: [https://prohub.page/blog](https://prohub.page/blog "https://prohub.page/blog")
 - Repo: [https://github.com/lucky-gru/my-portfolio](https://github.com/lucky-gru/my-portfolio "https://github.com/lucky-gru/my-portfolio")
