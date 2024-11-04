@@ -70,30 +70,30 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
     //   imageUrl: "/team/jone.png",
     //   resume: "/resume/Johnlee.pdf",
     // },
-    {
-      id: 6,
-      name: "Daniel Jin",
-      description:
-        "Innovative and results-driven Senior Software Engineer with over 12 years of experience in designing, developing, and deploying high-performance",
-      imageUrl: "/team/daniel.png",
-      resume: "/resume/daniel.pdf",
-    },
     // {
     //   id: 6,
-    //   name: "Xiaoxue Xiong",
+    //   name: "Daniel Jin",
     //   description:
-    //     "As a Data Scientist with a Master's degree in Statistics from Columbia University and a strong academic foundation in mathematics and computer science, I excel at turning raw data into actionable insights.",
-    //   imageUrl: "/team/xiaoxue.png",
-    //   resume: "/resume/xiaoxue.pdf",
+    //     "Innovative and results-driven Senior Software Engineer with over 12 years of experience in designing, developing, and deploying high-performance",
+    //   imageUrl: "/team/daniel.png",
+    //   resume: "/resume/daniel.pdf",
     // },
-    // {
-    //   id: 7,
-    //   name: "Benjamin Tan",
-    //   description:
-    //     "I'm a Blockchain Developer with over 8 years of industry experience.Graduated from Toronto Metropolitan University with a Bachelor's degree in",
-    //   imageUrl: "/team/benjamin.png",
-    //   resume: "/resume/benjamin.pdf",
-    // },
+    {
+      id: 6,
+      name: "Xiaoxue Xiong",
+      description:
+        "As a Data Scientist with a Master's degree in Statistics from Columbia University and a strong academic foundation in mathematics and computer science, I excel at turning raw data into actionable insights.",
+      imageUrl: "/team/xiaoxue.png",
+      resume: "/resume/xiaoxue.pdf",
+    },
+    {
+      id: 7,
+      name: "Benjamin Tan",
+      description:
+        "I'm a Blockchain Developer with over 8 years of industry experience.Graduated from Toronto Metropolitan University with a Bachelor's degree in",
+      imageUrl: "/team/benjamin.png",
+      resume: "/resume/benjamin.pdf",
+    },
   ];
 
   // Set active link for blog section
