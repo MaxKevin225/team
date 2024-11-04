@@ -48,7 +48,7 @@ export const INFO: Info = {
   main: {
     title: "Kevin Lim",
     name: "Kevin Lim",
-    email: "kevin@prohub.page",
+    email: "kevin@smartoutsourcingservice.icu",
     logo: "/logo.png", // Adjust this path if needed
   },
 

@@ -20,22 +20,22 @@ type Props = {
 export const meta = {
   description:
     "As a team, we are driven by our passion for coding and our desire to tackle new challenges. If you have opportunities for collaboration or want to build something amazing, don't hesitate to contact us!.",
-  author: "prohub.page",
+  author: "smartoutsourcingservice.icu",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/Hiroshi-dev-og-new.png`,
-  siteName: "prohub.page",
-  imageAlt: "prohub.page portfolio website",
+  siteName: "smartoutsourcingservice.icu",
+  imageAlt: "smartoutsourcingservice.icu portfolio website",
 };
 
 const Unsubscribe: NextPage<Props> = ({ }) => {
   return (
     <>
       <AppHead
-        title="prohub.page"
+        title="smartoutsourcingservice.icu"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
-      <Loader>prohub.page</Loader>
+      <Loader>smartoutsourcingservice.icu</Loader>
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <Header />

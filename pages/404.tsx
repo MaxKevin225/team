@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <AppHead
-        title="Prohub work"
+        title="SmartOutsourcingService"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />

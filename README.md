@@ -25,7 +25,7 @@ My portfolio & blog website developed with Next.JS(SSG) and TypeScript. Tailwind
 ## Lighthouse Score
 
 <p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fprohub.page%2F&form_factor=desktop">
+  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fsmartoutsourcingservice.icu%2F&form_factor=desktop">
     <img width="710" alt="Hiroshi Tanaka Portfolio Website Lighthouse Score" src="public/lighthouse-result.svg">
   <a>
 </p>
@@ -35,13 +35,13 @@ My portfolio & blog website developed with Next.JS(SSG) and TypeScript. Tailwind
 Clone the project
 
 ```bash
-git clone https://github.com/lucky-gru/prohub.page.git
+git clone https://github.com/lucky-gru/smartoutsourcingservice.icu.git
 ```
 
 Go to the project directory
 
 ```bash
-cd prohub.page
+cd smartoutsourcingservice.icu
 ```
 
 Remove remote origin
