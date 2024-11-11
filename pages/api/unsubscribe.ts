@@ -29,7 +29,7 @@ export default async function handler(
     if (exist) {
       res.status(200).json({ message: "already exist" });
     } else {
-      await db.collection("unsubscribe").insertOne({ email });
+      await db.collection("unsubscribe").insertOne({ email, createdAt: new Date() });
       res.status(200).json({ message: "unsubscribed" });
     }
   } catch (error: any) {
