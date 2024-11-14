@@ -46,14 +46,14 @@ const BlogSection: React.FC<Props> = ({ posts }) => {
       imageUrl: "/team/takeshi.png",
       resume: "/resume/takeshisuzuki.pdf",
     },
-    // {
-    //   id: 3,
-    //   name: "Kevin Lim",
-    //   description:
-    //     "Senior Full Stack Developer with a vast array of knowledge in many different front end and backend languages, responsive frameworks, databases and best code practices. Having extensive experience working with web and blockchain.",
-    //   imageUrl: "/team/kevin.png",
-    //   resume: "/resume/kevinlim.pdf",
-    // },
+    {
+      id: 3,
+      name: "Kevin Lim",
+      description:
+        "Senior Full Stack Developer with a vast array of knowledge in many different front end and backend languages, responsive frameworks, databases and best code practices. Having extensive experience working with web and blockchain.",
+      imageUrl: "/team/kevin.png",
+      resume: "/resume/kevinlim.pdf",
+    },
     // {
     //   id: 4,
     //   name: "Nazar B",
