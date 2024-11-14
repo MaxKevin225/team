@@ -75,11 +75,11 @@ const projects = [
       />
     ),
     desc: "Lattis is revolutionizing fleet management across industries like micromobility, car rental, delivery, and public transit.",
-    tags: ["GolangNode", "JsAngularAPI", "DevelopmentIot"],
+    tags: ["Node.js", "AngularJS", "Iot", "AWS", "Sentry", "Express.js"],
     liveUrl: "https://lattis.io",
-    codeUrl: "https://github.com/lucky-gru/astro-paper",
+    codeUrl: "",
     bgColor: "bg-[#9FD0E3]",
-    githubApi: "https://api.github.com/repos/Hiroshi/astro-paper",
+    githubApi: "",
   },
   {
     title: "amera",
@@ -94,11 +94,11 @@ const projects = [
       />
     ),
     desc: "Amera delivers quantum resistant solutions for your products today.",
-    tags: ["Node", "JsKafkaPython", "3React", "ReduxWebRTCXMPP"],
+    tags: ["Node", "Python", "React", "Redux", "WebRTC", "XMPP"],
     liveUrl: "https://amerashare.com",
     codeUrl: "https://github.com/lucky-gru/terminal-portfolio",
     bgColor: "bg-[#B4BEE0]",
-    githubApi: "https://api.github.com/repos/Hiroshi/terminal-portfolio",
+    githubApi: "",
   },
   {
     title: "blast",
@@ -113,7 +113,7 @@ const projects = [
       />
     ),
     desc: "Blast is a web3 tournament platform for all kinds of games.",
-    tags: ["Next.js", "React", "Ethereum Smart Contract", "Web3.js", "CSS3"],
+    tags: ["Next.js", "React", "Ethereum Smart Contract", "Web3.js", "CSS", "Polygon", "Firebase"],
     liveUrl: "https://app.blast.gg/",
     codeUrl: "https://github.com/lucky-gru/haru-fashion",
     bgColor: "bg-[#A6CECE]",
@@ -131,7 +131,7 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Hilo Labs is a startup focused on web, blockchain, and AI development. Joined the Bonzo development team and built an SMS marketing platform.",
+    desc: "Joined the Bonzo development team and built an SMS marketing platform.",
     tags: ["ExpressJS", "TypeScript", "PostgreSQL", "Prisma"],
     liveUrl: "https://getbonzo.com/",
     codeUrl: "https://github.com/lucky-gru/haru-api",
@@ -140,7 +140,7 @@ const projects = [
   },
   {
     title: "Botbot",
-    type: "Frontend + HeadlessCMS",
+    type: "ChatGPT like LLM chat app",
     image: (
       <Image
         src={botbot}
@@ -150,8 +150,8 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "An online bookstore developed using NextJS 13 with appDir and StrapiCMS.",
-    tags: ["NextJS", "Radix UI ", "TailwindCSS", "TanstackQuery", "StrapiCMS"],
+    desc: "LLM app based on fine-tuned models for Portuguese",
+    tags: ["NextJS", "Next UI", "OpenAI API", "Figma"],
     liveUrl: "https://oi.botbot.bot/",
     codeUrl: "https://github.com/lucky-gru/next-bookstore",
     bgColor: "bg-[#EBF4F4]",
@@ -208,7 +208,7 @@ const projects = [
       />
     ),
     desc: "Admin Dashboard UI built with Shadcn and Vite. Built with responsiveness and accessibility in mind.",
-    tags: ["ShadcnUI", "Vite", "React Router", "TypeScript"],
+    tags: ["ShadcnUI", "Vite", "React Router", "TypeScript", "TanstackQuery", "Wagmi"],
     liveUrl: "#",
     codeUrl: "https://github.com/lucky-gru/shadcn-admin",
     bgColor: "bg-[#FBFBFB]",
